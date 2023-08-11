@@ -1,3 +1,6 @@
+REM Author: C.Z3R0
+REM Category: CMD
+REM Description: Payload show browser history in CMD
 GUI r
 DELAY 500
 STRING cmd
