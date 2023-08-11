@@ -48,8 +48,9 @@ ENTER
 STRING     `-.____/
 ENTER
 STRING            #
+STRING ____________________________________ 
 DELAY 1000
-STRING ____________________________________ by C.Z3R0  C0MPU7ER H4V3 B33N H4K3D
+STRING by C.Z3R0  C0MPU7ER H4V3 B33N H4K3D
 DELAY 2000
 ALT F4
 TAB
