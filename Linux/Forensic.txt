@@ -1,0 +1,58 @@
+REM Kali Linux Forensic Payload
+REM Author: YourName
+REM Description: This payload automates basic forensic tasks on a target Kali Linux system.
+
+DELAY 500
+CTRL ESC
+DELAY 1000
+STRING Root terminal
+ENTER
+DELAY 2000
+
+REM Collect system information
+STRING echo "--------->Sys Info----" >> /root/forensic_report.txt
+ENTER
+STRING uname -a > /root/forensic_report.txt
+ENTER
+DELAY 1000
+STRING cat /etc/issue >> /root/forensic_report.txt
+ENTER
+DELAY 1000
+STRING dpkg -l >> /root/forensic_report.txt
+ENTER
+DELAY 2000
+
+REM Gather network information
+STRING echo "--------->NET Info----" >> /root/forensic_report.txt
+ENTER
+STRING ifconfig >> /root/forensic_report.txt
+ENTER
+DELAY 1000
+STRING netstat -tuln >> /root/forensic_report.txt
+ENTER
+DELAY 2000
+
+REM Capture process information
+STRING echo "--------->Process Info----" >> /root/forensic_report.txt
+ENTER
+STRING ps aux >> /root/forensic_report.txt
+ENTER
+DELAY 2000
+
+REM Copy important logs
+STRING cp /var/log/auth.log /root/
+ENTER
+DELAY 1000
+STRING cp /var/log/syslog /root/
+ENTER
+DELAY 1000
+
+REM Pack all collected data
+STRING tar -czvf /root/forensic_data.tar.gz /root/forensic_report.txt /root/auth.log /root/syslog
+ENTER
+DELAY 2500
+
+REM Clean up
+STRING rm /root/forensic_report.txt /root/auth.log /root/syslog
+ENTER
+DELAY 1000
