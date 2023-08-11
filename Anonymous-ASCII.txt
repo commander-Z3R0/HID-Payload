@@ -1,5 +1,4 @@
-REM Description: Opens Notepad and types out the ASCII art
-REM Version:	1.0
+REM Author: C.Z3R0
 REM Category:	ASCII
 DELAY 1000
 GUI r
@@ -127,3 +126,4 @@ STRING                                   .-+#@@%*=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ENTER
 STRING                                        .-+*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*+-.                                       
 ENTER  
+STRING                                                  \H4CK3D BY C.Z3R0/
