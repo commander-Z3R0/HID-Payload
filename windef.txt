@@ -1,3 +1,6 @@
+REM Author: C.Z3R0
+REM Category: Windows defender
+REM Description: Desable Windows defender in french Language OS
 DELAY 2000
 GUI
 DELAY 1000
