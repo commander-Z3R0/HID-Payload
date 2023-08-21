@@ -1,5 +1,5 @@
 REM Kali Linux Forensic Payload
-REM Author: YourName
+REM Author: Commander-Z3R0
 REM Description: This payload automates basic forensic tasks on a target Kali Linux system.
 
 DELAY 500
