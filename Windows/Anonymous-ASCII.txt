@@ -1,4 +1,4 @@
-REM Author: C.Z3R0
+REM Author: Commander-Z3R0
 REM Category: Anonymous in ASCII Art
 DELAY 1000
 GUI r
