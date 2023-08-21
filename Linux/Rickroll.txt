@@ -1,4 +1,4 @@
-REM Author: C.Z3R0
+REM Author: Commander-Z3R0
 REM Category: Rick-Roll animed in ASCII Art 
 REM OS: Linux
 CTRL ALT t
